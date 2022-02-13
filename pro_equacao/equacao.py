@@ -1,8 +1,8 @@
 from math import pow, sqrt
 
-conitua = 'S'
+continua = 'S'
 
-while conitua != 'N':
+while continua != 'N':
     a = int(input('Informe a valor de a: '))
 
     if a == 0:
@@ -28,3 +28,6 @@ while conitua != 'N':
         print('x1 = ',x1)
         print('x2 = ',x2)
 
+    continua = str(input('Fazer outra operação?\n[S/N]n\ ')).lower()
+
+print('Programa encerrado')
